@@ -1,0 +1,138 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+
+.main-header{
+  background-color: #000;
+  color:#fff;
+  height:60px;
+  line-height: 60px;
+}
+.main-header > .logo{
+  color:#fff;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.main-header > .nav-bar{
+  color:#fff;
+  float:right;
+}
+.main-header > .nav-bar > .nav-bar-button{
+  display: inline-block;
+  margin-left: 10px;
+}
+.main-header > .nav-bar > .nav-bar-button > a{
+  color:#fff;
+  font-size: 12px;
+}
+
+.main-content{
+  background-color: rgb(216, 222, 230);
+  padding: 20px;
+}
+article{
+  background-color: #fff;
+  padding: 30px 20px 30px 20px;
+  margin-bottom: 20px;
+
+}
+article > h2{
+  font-size: 22px;
+}
+article > h3{
+  font-size: 15px;
+  margin-top: 10px;
+  color: rgb(136, 135, 135)
+}
+article > .article-time{
+  font-size: 12px;
+  margin-top: 10px;
+  color: #888888;
+}
+article > .article-content{
+  font-size: 15px;
+  margin-top: 10px;
+  text-indent: 20px;
+}
+article > ul >li{
+  list-style-type: none;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+article > .photo{
+  height: 150px;
+  width: 150px;
+  border:1px solid #888888;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
+article > .photo > .photo-title{
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+article > .photo > .photo-img{
+  height: 115px;
+  width: 140px;
+}
+article > ol{
+  margin: 20px;
+}
+article > ol > li{
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: bold;
+}
+article > table{
+  width: 100%;
+  border-width: 1px;
+  border-color: #888888;
+  border-collapse: collapse;
+  font-size: 12px;
+  text-align: left;
+}
+article > table th {
+  background-color : #242525;
+  color : #fff;
+  padding: 5px 0px 5px 20px;
+  border:1px solid #888888;
+}
+article > table td {
+  padding: 2px 0px 2px 20px;
+  border:1px solid #888888;
+}
+article > table tr.table-footer {
+  background-color: #888888;
+  color: #fff;
+}
+article > .sidebar > .sidebar-title {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border-left: 3px solid #888888;
+}
+.sidebar-form {
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+}
+.sidebar-form > .form-line {
+  width: 100%;
+}
+.sidebar-form > .form-line > label {
+  width: 300px;
+  text-align: right;
+}
+
+.main-footer{
+  background-color: #000;
+  color:#fff;
+  text-align: center;
+}
