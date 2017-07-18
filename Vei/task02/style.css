@@ -38,7 +38,7 @@ article{
   background-color: #fff;
   padding: 30px 20px 30px 20px;
   margin-bottom: 20px;
-
+  box-shadow: 4px 4px 2px #888888;
 }
 article > h2{
   font-size: 22px;
@@ -124,15 +124,46 @@ article > .sidebar > .sidebar-title {
   text-align: center;
 }
 .sidebar-form > .form-line {
-  width: 100%;
-}
-.sidebar-form > .form-line > label {
-  width: 300px;
-  text-align: right;
-}
+  width:100%;
 
+}
+.form-line > .line-left {
+  width: 30%;
+  text-align: right;
+  float: left;
+  margin-top: 10px;
+}
+.form-line > .line-left label{
+  margin-right: 15px;
+}
+.form-line > .line-right {
+  width: 70%;
+  text-align: left;
+  float: left;
+  margin-top: 10px;
+}
+.form-line > .line-right p{
+  color: #888888;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.form-line > .line-right textarea{
+  width: 80%;
+  height: 100px;
+}
+.form-button {
+  background-color: #4966cb;
+  color: #fff;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius:10px;
+  font-size: 16px;
+}
 .main-footer{
   background-color: #000;
   color:#fff;
   text-align: center;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
 }
